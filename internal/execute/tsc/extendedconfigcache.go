@@ -3,9 +3,9 @@ package tsc
 import (
 	"sync"
 
-	"github.com/microsoft/typescript-go/internal/collections"
-	"github.com/microsoft/typescript-go/internal/tsoptions"
-	"github.com/microsoft/typescript-go/internal/tspath"
+	"github.com/sngl-lang/typescript-go/internal/collections"
+	"github.com/sngl-lang/typescript-go/internal/tsoptions"
+	"github.com/sngl-lang/typescript-go/internal/tspath"
 )
 
 // extendedConfigCache is a minimal implementation of tsoptions.ExtendedConfigCache.

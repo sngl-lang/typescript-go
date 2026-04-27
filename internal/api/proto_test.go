@@ -3,8 +3,8 @@ package api_test
 import (
 	"testing"
 
-	"github.com/microsoft/typescript-go/internal/api"
-	"github.com/microsoft/typescript-go/internal/json"
+	"github.com/sngl-lang/typescript-go/internal/api"
+	"github.com/sngl-lang/typescript-go/internal/json"
 	"gotest.tools/v3/assert"
 )
 

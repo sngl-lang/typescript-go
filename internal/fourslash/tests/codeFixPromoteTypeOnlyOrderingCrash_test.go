@@ -3,13 +3,13 @@ package fourslash_test
 import (
 	"testing"
 
-	"github.com/microsoft/typescript-go/internal/fourslash"
-	"github.com/microsoft/typescript-go/internal/testutil"
+	"github.com/sngl-lang/typescript-go/internal/fourslash"
+	"github.com/sngl-lang/typescript-go/internal/testutil"
 )
 
 // Test case for crash when promoting type-only import to value import
 // when existing type imports precede the new value import
-// https://github.com/microsoft/typescript-go/issues/2559
+// https://github.com/sngl-lang/typescript-go/issues/2559
 func TestCodeFixPromoteTypeOnlyOrderingCrash(t *testing.T) {
 	fourslash.SkipIfFailing(t)
 	t.Parallel()

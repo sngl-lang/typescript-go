@@ -1,8 +1,8 @@
 package ast
 
 import (
-	"github.com/microsoft/typescript-go/internal/core"
-	"github.com/microsoft/typescript-go/internal/tspath"
+	"github.com/sngl-lang/typescript-go/internal/core"
+	"github.com/sngl-lang/typescript-go/internal/tspath"
 )
 
 type SourceFileParseOptions struct {

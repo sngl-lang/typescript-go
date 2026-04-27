@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/microsoft/typescript-go/internal/tspath"
+	"github.com/sngl-lang/typescript-go/internal/tspath"
 	"gotest.tools/v3/assert"
 	"gotest.tools/v3/assert/cmp"
 )

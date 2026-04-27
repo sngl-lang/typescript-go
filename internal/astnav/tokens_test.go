@@ -9,13 +9,13 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/microsoft/typescript-go/internal/ast"
-	"github.com/microsoft/typescript-go/internal/astnav"
-	"github.com/microsoft/typescript-go/internal/core"
-	"github.com/microsoft/typescript-go/internal/parser"
-	"github.com/microsoft/typescript-go/internal/repo"
-	"github.com/microsoft/typescript-go/internal/testutil/baseline"
-	"github.com/microsoft/typescript-go/internal/testutil/jstest"
+	"github.com/sngl-lang/typescript-go/internal/ast"
+	"github.com/sngl-lang/typescript-go/internal/astnav"
+	"github.com/sngl-lang/typescript-go/internal/core"
+	"github.com/sngl-lang/typescript-go/internal/parser"
+	"github.com/sngl-lang/typescript-go/internal/repo"
+	"github.com/sngl-lang/typescript-go/internal/testutil/baseline"
+	"github.com/sngl-lang/typescript-go/internal/testutil/jstest"
 	"gotest.tools/v3/assert"
 )
 

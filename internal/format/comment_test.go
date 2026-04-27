@@ -4,11 +4,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/microsoft/typescript-go/internal/ast"
-	"github.com/microsoft/typescript-go/internal/core"
-	"github.com/microsoft/typescript-go/internal/format"
-	"github.com/microsoft/typescript-go/internal/ls/lsutil"
-	"github.com/microsoft/typescript-go/internal/parser"
+	"github.com/sngl-lang/typescript-go/internal/ast"
+	"github.com/sngl-lang/typescript-go/internal/core"
+	"github.com/sngl-lang/typescript-go/internal/format"
+	"github.com/sngl-lang/typescript-go/internal/ls/lsutil"
+	"github.com/sngl-lang/typescript-go/internal/parser"
 	"gotest.tools/v3/assert"
 )
 

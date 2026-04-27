@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"slices"
 
-	"github.com/microsoft/typescript-go/internal/core"
-	"github.com/microsoft/typescript-go/internal/fourslash"
-	"github.com/microsoft/typescript-go/internal/ls"
-	"github.com/microsoft/typescript-go/internal/lsp/lsproto"
-	"github.com/microsoft/typescript-go/internal/stringutil"
+	"github.com/sngl-lang/typescript-go/internal/core"
+	"github.com/sngl-lang/typescript-go/internal/fourslash"
+	"github.com/sngl-lang/typescript-go/internal/ls"
+	"github.com/sngl-lang/typescript-go/internal/lsp/lsproto"
+	"github.com/sngl-lang/typescript-go/internal/stringutil"
 )
 
 var Ignored = struct{}{}

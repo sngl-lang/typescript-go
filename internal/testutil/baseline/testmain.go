@@ -9,7 +9,7 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/microsoft/typescript-go/internal/collections"
+	"github.com/sngl-lang/typescript-go/internal/collections"
 )
 
 var (

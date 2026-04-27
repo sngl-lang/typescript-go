@@ -5,12 +5,12 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/microsoft/typescript-go/internal/core"
-	"github.com/microsoft/typescript-go/internal/debug"
-	"github.com/microsoft/typescript-go/internal/json"
-	"github.com/microsoft/typescript-go/internal/scanner"
-	"github.com/microsoft/typescript-go/internal/stringutil"
-	"github.com/microsoft/typescript-go/internal/tspath"
+	"github.com/sngl-lang/typescript-go/internal/core"
+	"github.com/sngl-lang/typescript-go/internal/debug"
+	"github.com/sngl-lang/typescript-go/internal/json"
+	"github.com/sngl-lang/typescript-go/internal/scanner"
+	"github.com/sngl-lang/typescript-go/internal/stringutil"
+	"github.com/sngl-lang/typescript-go/internal/tspath"
 )
 
 type Host interface {

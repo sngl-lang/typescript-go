@@ -1,15 +1,15 @@
 package ls
 
 import (
-	"github.com/microsoft/typescript-go/internal/ast"
-	"github.com/microsoft/typescript-go/internal/compiler"
-	"github.com/microsoft/typescript-go/internal/ls/autoimport"
-	"github.com/microsoft/typescript-go/internal/ls/lsconv"
-	"github.com/microsoft/typescript-go/internal/ls/lsutil"
-	"github.com/microsoft/typescript-go/internal/lsp/lsproto"
-	"github.com/microsoft/typescript-go/internal/sourcemap"
-	"github.com/microsoft/typescript-go/internal/tspath"
-	"github.com/microsoft/typescript-go/internal/vfs/vfsmatch"
+	"github.com/sngl-lang/typescript-go/internal/ast"
+	"github.com/sngl-lang/typescript-go/internal/compiler"
+	"github.com/sngl-lang/typescript-go/internal/ls/autoimport"
+	"github.com/sngl-lang/typescript-go/internal/ls/lsconv"
+	"github.com/sngl-lang/typescript-go/internal/ls/lsutil"
+	"github.com/sngl-lang/typescript-go/internal/lsp/lsproto"
+	"github.com/sngl-lang/typescript-go/internal/sourcemap"
+	"github.com/sngl-lang/typescript-go/internal/tspath"
+	"github.com/sngl-lang/typescript-go/internal/vfs/vfsmatch"
 )
 
 type LanguageService struct {

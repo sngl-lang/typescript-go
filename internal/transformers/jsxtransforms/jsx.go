@@ -7,13 +7,13 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"github.com/microsoft/typescript-go/internal/ast"
-	"github.com/microsoft/typescript-go/internal/collections"
-	"github.com/microsoft/typescript-go/internal/core"
-	"github.com/microsoft/typescript-go/internal/printer"
-	"github.com/microsoft/typescript-go/internal/scanner"
-	"github.com/microsoft/typescript-go/internal/stringutil"
-	"github.com/microsoft/typescript-go/internal/transformers"
+	"github.com/sngl-lang/typescript-go/internal/ast"
+	"github.com/sngl-lang/typescript-go/internal/collections"
+	"github.com/sngl-lang/typescript-go/internal/core"
+	"github.com/sngl-lang/typescript-go/internal/printer"
+	"github.com/sngl-lang/typescript-go/internal/scanner"
+	"github.com/sngl-lang/typescript-go/internal/stringutil"
+	"github.com/sngl-lang/typescript-go/internal/transformers"
 )
 
 type JSXTransformer struct {

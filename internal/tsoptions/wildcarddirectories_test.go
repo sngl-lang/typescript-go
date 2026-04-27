@@ -3,7 +3,7 @@ package tsoptions
 import (
 	"testing"
 
-	"github.com/microsoft/typescript-go/internal/tspath"
+	"github.com/sngl-lang/typescript-go/internal/tspath"
 )
 
 func TestGetWildcardDirectories_NonASCIICharacters(t *testing.T) {

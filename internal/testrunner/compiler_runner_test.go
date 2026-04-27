@@ -3,10 +3,10 @@ package testrunner
 import (
 	"testing"
 
-	"github.com/microsoft/typescript-go/internal/bundled"
-	"github.com/microsoft/typescript-go/internal/collections"
-	"github.com/microsoft/typescript-go/internal/repo"
-	"github.com/microsoft/typescript-go/internal/tspath"
+	"github.com/sngl-lang/typescript-go/internal/bundled"
+	"github.com/sngl-lang/typescript-go/internal/collections"
+	"github.com/sngl-lang/typescript-go/internal/repo"
+	"github.com/sngl-lang/typescript-go/internal/tspath"
 	"gotest.tools/v3/assert"
 )
 

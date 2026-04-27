@@ -5,9 +5,9 @@ import (
 	"testing"
 	"testing/fstest"
 
-	"github.com/microsoft/typescript-go/internal/testutil"
-	"github.com/microsoft/typescript-go/internal/vfs"
-	"github.com/microsoft/typescript-go/internal/vfs/iovfs"
+	"github.com/sngl-lang/typescript-go/internal/testutil"
+	"github.com/sngl-lang/typescript-go/internal/vfs"
+	"github.com/sngl-lang/typescript-go/internal/vfs/iovfs"
 	"gotest.tools/v3/assert"
 )
 

@@ -6,9 +6,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/microsoft/typescript-go/internal/tspath"
-	"github.com/microsoft/typescript-go/internal/vfs"
-	"github.com/microsoft/typescript-go/internal/vfs/internal"
+	"github.com/sngl-lang/typescript-go/internal/tspath"
+	"github.com/sngl-lang/typescript-go/internal/vfs"
+	"github.com/sngl-lang/typescript-go/internal/vfs/internal"
 )
 
 type RealpathFS interface {

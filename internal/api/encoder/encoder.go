@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"slices"
 
-	"github.com/microsoft/typescript-go/internal/ast"
+	"github.com/sngl-lang/typescript-go/internal/ast"
 	"github.com/zeebo/xxh3"
 )
 

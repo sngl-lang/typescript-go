@@ -6,14 +6,14 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/microsoft/typescript-go/internal/bundled"
-	"github.com/microsoft/typescript-go/internal/compiler"
-	"github.com/microsoft/typescript-go/internal/core"
-	"github.com/microsoft/typescript-go/internal/repo"
-	"github.com/microsoft/typescript-go/internal/tsoptions"
-	"github.com/microsoft/typescript-go/internal/tspath"
-	"github.com/microsoft/typescript-go/internal/vfs/osvfs"
-	"github.com/microsoft/typescript-go/internal/vfs/vfstest"
+	"github.com/sngl-lang/typescript-go/internal/bundled"
+	"github.com/sngl-lang/typescript-go/internal/compiler"
+	"github.com/sngl-lang/typescript-go/internal/core"
+	"github.com/sngl-lang/typescript-go/internal/repo"
+	"github.com/sngl-lang/typescript-go/internal/tsoptions"
+	"github.com/sngl-lang/typescript-go/internal/tspath"
+	"github.com/sngl-lang/typescript-go/internal/vfs/osvfs"
+	"github.com/sngl-lang/typescript-go/internal/vfs/vfstest"
 	"gotest.tools/v3/assert"
 )
 

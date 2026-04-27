@@ -4,7 +4,7 @@ import (
 	"context"
 	"errors"
 
-	"github.com/microsoft/typescript-go/internal/json"
+	"github.com/sngl-lang/typescript-go/internal/json"
 )
 
 var (

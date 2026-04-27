@@ -7,9 +7,9 @@ import (
 	"context"
 	"sync"
 
-	"github.com/microsoft/typescript-go/internal/diagnostics"
-	"github.com/microsoft/typescript-go/internal/lsp/lsproto"
-	"github.com/microsoft/typescript-go/internal/project"
+	"github.com/sngl-lang/typescript-go/internal/diagnostics"
+	"github.com/sngl-lang/typescript-go/internal/lsp/lsproto"
+	"github.com/sngl-lang/typescript-go/internal/project"
 )
 
 // Ensure, that ClientMock does implement project.Client.

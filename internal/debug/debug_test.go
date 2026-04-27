@@ -3,8 +3,8 @@ package debug_test
 import (
 	"testing"
 
-	"github.com/microsoft/typescript-go/internal/debug"
-	"github.com/microsoft/typescript-go/internal/testutil"
+	"github.com/sngl-lang/typescript-go/internal/debug"
+	"github.com/sngl-lang/typescript-go/internal/testutil"
 )
 
 func TestFailEmptyReason(t *testing.T) {

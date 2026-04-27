@@ -3,9 +3,9 @@ package astnav
 import (
 	"fmt"
 
-	"github.com/microsoft/typescript-go/internal/ast"
-	"github.com/microsoft/typescript-go/internal/core"
-	"github.com/microsoft/typescript-go/internal/scanner"
+	"github.com/sngl-lang/typescript-go/internal/ast"
+	"github.com/sngl-lang/typescript-go/internal/core"
+	"github.com/sngl-lang/typescript-go/internal/scanner"
 )
 
 func GetTouchingPropertyName(sourceFile *ast.SourceFile, position int) *ast.Node {

@@ -5,8 +5,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/microsoft/typescript-go/internal/ls/lsconv"
-	"github.com/microsoft/typescript-go/internal/lsp/lsproto"
+	"github.com/sngl-lang/typescript-go/internal/ls/lsconv"
+	"github.com/sngl-lang/typescript-go/internal/lsp/lsproto"
 )
 
 type SemanticToken struct {

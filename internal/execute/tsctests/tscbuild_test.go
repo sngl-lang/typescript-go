@@ -8,11 +8,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/microsoft/typescript-go/internal/core"
-	"github.com/microsoft/typescript-go/internal/testutil/harnessutil"
-	"github.com/microsoft/typescript-go/internal/testutil/stringtestutil"
-	"github.com/microsoft/typescript-go/internal/tsoptions"
-	"github.com/microsoft/typescript-go/internal/vfs/vfstest"
+	"github.com/sngl-lang/typescript-go/internal/core"
+	"github.com/sngl-lang/typescript-go/internal/testutil/harnessutil"
+	"github.com/sngl-lang/typescript-go/internal/testutil/stringtestutil"
+	"github.com/sngl-lang/typescript-go/internal/tsoptions"
+	"github.com/sngl-lang/typescript-go/internal/vfs/vfstest"
 	"gotest.tools/v3/assert"
 )
 

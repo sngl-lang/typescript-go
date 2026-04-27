@@ -9,9 +9,9 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/microsoft/typescript-go/internal/api"
-	"github.com/microsoft/typescript-go/internal/bundled"
-	"github.com/microsoft/typescript-go/internal/core"
+	"github.com/sngl-lang/typescript-go/internal/api"
+	"github.com/sngl-lang/typescript-go/internal/bundled"
+	"github.com/sngl-lang/typescript-go/internal/core"
 )
 
 func runAPI(args []string) int {

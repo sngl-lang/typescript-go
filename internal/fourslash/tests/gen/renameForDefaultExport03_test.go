@@ -6,10 +6,10 @@ package fourslash_test
 import (
 	"testing"
 
-	"github.com/microsoft/typescript-go/internal/core"
-	"github.com/microsoft/typescript-go/internal/fourslash"
-	. "github.com/microsoft/typescript-go/internal/fourslash/tests/util"
-	"github.com/microsoft/typescript-go/internal/testutil"
+	"github.com/sngl-lang/typescript-go/internal/core"
+	"github.com/sngl-lang/typescript-go/internal/fourslash"
+	. "github.com/sngl-lang/typescript-go/internal/fourslash/tests/util"
+	"github.com/sngl-lang/typescript-go/internal/testutil"
 )
 
 func TestRenameForDefaultExport03(t *testing.T) {

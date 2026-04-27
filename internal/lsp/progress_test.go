@@ -7,9 +7,9 @@ import (
 	"testing/synctest"
 	"time"
 
-	"github.com/microsoft/typescript-go/internal/diagnostics"
-	"github.com/microsoft/typescript-go/internal/locale"
-	"github.com/microsoft/typescript-go/internal/lsp/lsproto"
+	"github.com/sngl-lang/typescript-go/internal/diagnostics"
+	"github.com/sngl-lang/typescript-go/internal/locale"
+	"github.com/sngl-lang/typescript-go/internal/lsp/lsproto"
 )
 
 type progressCall struct {

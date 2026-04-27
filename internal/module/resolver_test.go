@@ -7,10 +7,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/microsoft/typescript-go/internal/core"
-	"github.com/microsoft/typescript-go/internal/module"
-	"github.com/microsoft/typescript-go/internal/vfs"
-	"github.com/microsoft/typescript-go/internal/vfs/vfstest"
+	"github.com/sngl-lang/typescript-go/internal/core"
+	"github.com/sngl-lang/typescript-go/internal/module"
+	"github.com/sngl-lang/typescript-go/internal/vfs"
+	"github.com/sngl-lang/typescript-go/internal/vfs/vfstest"
 )
 
 type resolutionHostStub struct {
@@ -21,7 +21,7 @@ type resolutionHostStub struct {
 func (h *resolutionHostStub) FS() vfs.FS                  { return h.fs }
 func (h *resolutionHostStub) GetCurrentDirectory() string { return h.cwd }
 
-// Regression test for https://github.com/microsoft/typescript-go/issues/3526.
+// Regression test for https://github.com/sngl-lang/typescript-go/issues/3526.
 //
 // Resolving a node_modules import with a trailing slash (e.g. `pkg/`) must
 // produce the same result as without one.
@@ -54,7 +54,7 @@ func TestResolveModuleNameTrailingSlash(t *testing.T) {
 // block on `gate` until released. It also counts how many goroutines are
 // waiting at the gate. This is used to deterministically reproduce the
 // `package.json` info-cache insert race described in
-// https://github.com/microsoft/typescript-go/issues/3526.
+// https://github.com/sngl-lang/typescript-go/issues/3526.
 type blockingFS struct {
 	vfs.FS
 	targetPath string
@@ -70,7 +70,7 @@ func (f *blockingFS) FileExists(path string) bool {
 	return f.FS.FileExists(path)
 }
 
-// Regression test for https://github.com/microsoft/typescript-go/issues/3526.
+// Regression test for https://github.com/sngl-lang/typescript-go/issues/3526.
 //
 // Two goroutines resolve the same package via specifiers that differ only by
 // a trailing slash (`pkg` and `pkg/`). A blocking FS holds both at the

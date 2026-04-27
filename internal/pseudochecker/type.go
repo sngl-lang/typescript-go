@@ -1,7 +1,7 @@
 package pseudochecker
 
 import (
-	"github.com/microsoft/typescript-go/internal/ast"
+	"github.com/sngl-lang/typescript-go/internal/ast"
 )
 
 // `PseudoType`s are skeletons of types - partially interpreted expressions and type nodes

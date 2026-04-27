@@ -1,4 +1,4 @@
-module github.com/microsoft/typescript-go/_tools
+module github.com/sngl-lang/typescript-go/_tools
 
 go 1.26
 

@@ -3,18 +3,18 @@ package fourslash_test
 import (
 	"testing"
 
-	"github.com/microsoft/typescript-go/internal/core"
-	"github.com/microsoft/typescript-go/internal/fourslash"
-	. "github.com/microsoft/typescript-go/internal/fourslash/tests/util"
-	"github.com/microsoft/typescript-go/internal/ls"
-	"github.com/microsoft/typescript-go/internal/ls/lsutil"
-	"github.com/microsoft/typescript-go/internal/lsp/lsproto"
-	"github.com/microsoft/typescript-go/internal/testutil"
+	"github.com/sngl-lang/typescript-go/internal/core"
+	"github.com/sngl-lang/typescript-go/internal/fourslash"
+	. "github.com/sngl-lang/typescript-go/internal/fourslash/tests/util"
+	"github.com/sngl-lang/typescript-go/internal/ls"
+	"github.com/sngl-lang/typescript-go/internal/ls/lsutil"
+	"github.com/sngl-lang/typescript-go/internal/lsp/lsproto"
+	"github.com/sngl-lang/typescript-go/internal/testutil"
 )
 
 // Test that global keywords like `function`, `class`, and `const` shadow
 // auto-import completions with the same name, rather than being
-// shadowed by them. See: https://github.com/microsoft/typescript-go/issues/1379
+// shadowed by them. See: https://github.com/sngl-lang/typescript-go/issues/1379
 func TestKeywordShadowsAutoImport(t *testing.T) {
 	t.Parallel()
 	defer testutil.RecoverAndFail(t, "Panic on fourslash test")

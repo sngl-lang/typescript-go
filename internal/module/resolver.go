@@ -7,14 +7,14 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/microsoft/typescript-go/internal/ast"
-	"github.com/microsoft/typescript-go/internal/collections"
-	"github.com/microsoft/typescript-go/internal/core"
-	"github.com/microsoft/typescript-go/internal/diagnostics"
-	"github.com/microsoft/typescript-go/internal/packagejson"
-	"github.com/microsoft/typescript-go/internal/stringutil"
-	"github.com/microsoft/typescript-go/internal/tspath"
-	"github.com/microsoft/typescript-go/internal/vfs/vfsmatch"
+	"github.com/sngl-lang/typescript-go/internal/ast"
+	"github.com/sngl-lang/typescript-go/internal/collections"
+	"github.com/sngl-lang/typescript-go/internal/core"
+	"github.com/sngl-lang/typescript-go/internal/diagnostics"
+	"github.com/sngl-lang/typescript-go/internal/packagejson"
+	"github.com/sngl-lang/typescript-go/internal/stringutil"
+	"github.com/sngl-lang/typescript-go/internal/tspath"
+	"github.com/sngl-lang/typescript-go/internal/vfs/vfsmatch"
 )
 
 type resolved struct {
@@ -1052,7 +1052,7 @@ func (r *resolutionState) loadModuleFromSpecificNodeModulesDirectory(ext extensi
 	// inserts, an entry whose `PackageDirectory` doesn't match `candidate`,
 	// causing `loadNodeModuleFromDirectoryWorker`'s `ComparePaths(candidate, ...)`
 	// check to fail and skip loading the package's `main`/`types` entry.
-	// https://github.com/microsoft/typescript-go/issues/3526
+	// https://github.com/sngl-lang/typescript-go/issues/3526
 	candidate := tspath.RemoveTrailingDirectorySeparator(tspath.NormalizePath(tspath.CombinePaths(nodeModulesDirectory, moduleName)))
 	packageName, rest := ParsePackageName(moduleName)
 	packageDirectory := tspath.CombinePaths(nodeModulesDirectory, packageName)

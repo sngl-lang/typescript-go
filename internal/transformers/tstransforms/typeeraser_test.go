@@ -3,12 +3,12 @@ package tstransforms_test
 import (
 	"testing"
 
-	"github.com/microsoft/typescript-go/internal/core"
-	"github.com/microsoft/typescript-go/internal/printer"
-	"github.com/microsoft/typescript-go/internal/testutil/emittestutil"
-	"github.com/microsoft/typescript-go/internal/testutil/parsetestutil"
-	"github.com/microsoft/typescript-go/internal/transformers"
-	"github.com/microsoft/typescript-go/internal/transformers/tstransforms"
+	"github.com/sngl-lang/typescript-go/internal/core"
+	"github.com/sngl-lang/typescript-go/internal/printer"
+	"github.com/sngl-lang/typescript-go/internal/testutil/emittestutil"
+	"github.com/sngl-lang/typescript-go/internal/testutil/parsetestutil"
+	"github.com/sngl-lang/typescript-go/internal/transformers"
+	"github.com/sngl-lang/typescript-go/internal/transformers/tstransforms"
 )
 
 func TestTypeEraser(t *testing.T) {

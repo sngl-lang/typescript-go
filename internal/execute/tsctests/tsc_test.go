@@ -6,9 +6,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/microsoft/typescript-go/internal/core"
-	"github.com/microsoft/typescript-go/internal/testutil/stringtestutil"
-	"github.com/microsoft/typescript-go/internal/vfs/vfstest"
+	"github.com/sngl-lang/typescript-go/internal/core"
+	"github.com/sngl-lang/typescript-go/internal/testutil/stringtestutil"
+	"github.com/sngl-lang/typescript-go/internal/vfs/vfstest"
 )
 
 func TestTscCommandline(t *testing.T) {

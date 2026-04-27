@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/microsoft/typescript-go/internal/ast"
-	"github.com/microsoft/typescript-go/internal/core"
+	"github.com/sngl-lang/typescript-go/internal/ast"
+	"github.com/sngl-lang/typescript-go/internal/core"
 	"gotest.tools/v3/assert"
 )
 

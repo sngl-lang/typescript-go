@@ -4,10 +4,10 @@ import (
 	"cmp"
 	"slices"
 
-	"github.com/microsoft/typescript-go/internal/collections"
-	"github.com/microsoft/typescript-go/internal/core"
-	"github.com/microsoft/typescript-go/internal/ls"
-	"github.com/microsoft/typescript-go/internal/tspath"
+	"github.com/sngl-lang/typescript-go/internal/collections"
+	"github.com/sngl-lang/typescript-go/internal/core"
+	"github.com/sngl-lang/typescript-go/internal/ls"
+	"github.com/sngl-lang/typescript-go/internal/tspath"
 )
 
 type ProjectCollection struct {

@@ -8,17 +8,17 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/microsoft/typescript-go/internal/ast"
-	"github.com/microsoft/typescript-go/internal/checker"
-	"github.com/microsoft/typescript-go/internal/compiler"
-	"github.com/microsoft/typescript-go/internal/core"
-	"github.com/microsoft/typescript-go/internal/nodebuilder"
-	"github.com/microsoft/typescript-go/internal/printer"
-	"github.com/microsoft/typescript-go/internal/scanner"
-	"github.com/microsoft/typescript-go/internal/testutil"
-	"github.com/microsoft/typescript-go/internal/testutil/baseline"
-	"github.com/microsoft/typescript-go/internal/testutil/harnessutil"
-	"github.com/microsoft/typescript-go/internal/tspath"
+	"github.com/sngl-lang/typescript-go/internal/ast"
+	"github.com/sngl-lang/typescript-go/internal/checker"
+	"github.com/sngl-lang/typescript-go/internal/compiler"
+	"github.com/sngl-lang/typescript-go/internal/core"
+	"github.com/sngl-lang/typescript-go/internal/nodebuilder"
+	"github.com/sngl-lang/typescript-go/internal/printer"
+	"github.com/sngl-lang/typescript-go/internal/scanner"
+	"github.com/sngl-lang/typescript-go/internal/testutil"
+	"github.com/sngl-lang/typescript-go/internal/testutil/baseline"
+	"github.com/sngl-lang/typescript-go/internal/testutil/harnessutil"
+	"github.com/sngl-lang/typescript-go/internal/tspath"
 )
 
 var (

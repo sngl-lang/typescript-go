@@ -5,7 +5,7 @@ package ast
 import (
 	"sync/atomic"
 
-	"github.com/microsoft/typescript-go/internal/core"
+	"github.com/sngl-lang/typescript-go/internal/core"
 )
 
 var (

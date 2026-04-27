@@ -6,13 +6,13 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/microsoft/typescript-go/internal/ast"
-	"github.com/microsoft/typescript-go/internal/binder"
-	"github.com/microsoft/typescript-go/internal/core"
-	"github.com/microsoft/typescript-go/internal/diagnostics"
-	"github.com/microsoft/typescript-go/internal/evaluator"
-	"github.com/microsoft/typescript-go/internal/scanner"
-	"github.com/microsoft/typescript-go/internal/tracing"
+	"github.com/sngl-lang/typescript-go/internal/ast"
+	"github.com/sngl-lang/typescript-go/internal/binder"
+	"github.com/sngl-lang/typescript-go/internal/core"
+	"github.com/sngl-lang/typescript-go/internal/diagnostics"
+	"github.com/sngl-lang/typescript-go/internal/evaluator"
+	"github.com/sngl-lang/typescript-go/internal/scanner"
+	"github.com/sngl-lang/typescript-go/internal/tracing"
 	"github.com/zeebo/xxh3"
 )
 

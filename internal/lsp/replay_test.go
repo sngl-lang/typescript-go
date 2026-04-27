@@ -8,15 +8,15 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/microsoft/typescript-go/internal/bundled"
-	"github.com/microsoft/typescript-go/internal/core"
-	"github.com/microsoft/typescript-go/internal/json"
-	"github.com/microsoft/typescript-go/internal/jsonrpc"
-	"github.com/microsoft/typescript-go/internal/ls/lsconv"
-	"github.com/microsoft/typescript-go/internal/lsp"
-	"github.com/microsoft/typescript-go/internal/lsp/lsproto"
-	"github.com/microsoft/typescript-go/internal/testutil/lsptestutil"
-	"github.com/microsoft/typescript-go/internal/vfs/osvfs"
+	"github.com/sngl-lang/typescript-go/internal/bundled"
+	"github.com/sngl-lang/typescript-go/internal/core"
+	"github.com/sngl-lang/typescript-go/internal/json"
+	"github.com/sngl-lang/typescript-go/internal/jsonrpc"
+	"github.com/sngl-lang/typescript-go/internal/ls/lsconv"
+	"github.com/sngl-lang/typescript-go/internal/lsp"
+	"github.com/sngl-lang/typescript-go/internal/lsp/lsproto"
+	"github.com/sngl-lang/typescript-go/internal/testutil/lsptestutil"
+	"github.com/sngl-lang/typescript-go/internal/vfs/osvfs"
 )
 
 var (

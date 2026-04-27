@@ -5,10 +5,10 @@ import (
 	"io"
 	"testing"
 
-	"github.com/microsoft/typescript-go/internal/bundled"
-	"github.com/microsoft/typescript-go/internal/lsp/lsproto"
-	"github.com/microsoft/typescript-go/internal/project"
-	"github.com/microsoft/typescript-go/internal/vfs/vfstest"
+	"github.com/sngl-lang/typescript-go/internal/bundled"
+	"github.com/sngl-lang/typescript-go/internal/lsp/lsproto"
+	"github.com/sngl-lang/typescript-go/internal/project"
+	"github.com/sngl-lang/typescript-go/internal/vfs/vfstest"
 )
 
 type shutdownTestReader struct{}

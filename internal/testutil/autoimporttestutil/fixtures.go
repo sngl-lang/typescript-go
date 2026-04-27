@@ -7,12 +7,12 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/microsoft/typescript-go/internal/ls/lsconv"
-	"github.com/microsoft/typescript-go/internal/lsp/lsproto"
-	"github.com/microsoft/typescript-go/internal/project"
-	"github.com/microsoft/typescript-go/internal/testutil/projecttestutil"
-	"github.com/microsoft/typescript-go/internal/tspath"
-	"github.com/microsoft/typescript-go/internal/vfs/vfstest"
+	"github.com/sngl-lang/typescript-go/internal/ls/lsconv"
+	"github.com/sngl-lang/typescript-go/internal/lsp/lsproto"
+	"github.com/sngl-lang/typescript-go/internal/project"
+	"github.com/sngl-lang/typescript-go/internal/testutil/projecttestutil"
+	"github.com/sngl-lang/typescript-go/internal/tspath"
+	"github.com/sngl-lang/typescript-go/internal/vfs/vfstest"
 )
 
 // FileHandle represents a file created for an autoimport lifecycle test.

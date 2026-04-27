@@ -6,10 +6,10 @@ import (
 	"slices"
 	"sync"
 
-	"github.com/microsoft/typescript-go/internal/ast"
-	"github.com/microsoft/typescript-go/internal/checker"
-	"github.com/microsoft/typescript-go/internal/compiler"
-	"github.com/microsoft/typescript-go/internal/core"
+	"github.com/sngl-lang/typescript-go/internal/ast"
+	"github.com/sngl-lang/typescript-go/internal/checker"
+	"github.com/sngl-lang/typescript-go/internal/compiler"
+	"github.com/sngl-lang/typescript-go/internal/core"
 )
 
 type CheckerPool struct {

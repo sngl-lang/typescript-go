@@ -1,9 +1,9 @@
 package checker
 
 import (
-	"github.com/microsoft/typescript-go/internal/ast"
-	"github.com/microsoft/typescript-go/internal/collections"
-	"github.com/microsoft/typescript-go/internal/diagnostics"
+	"github.com/sngl-lang/typescript-go/internal/ast"
+	"github.com/sngl-lang/typescript-go/internal/collections"
+	"github.com/sngl-lang/typescript-go/internal/diagnostics"
 )
 
 func (c *Checker) checkUnmatchedJSDocParameters(node *ast.Node) {

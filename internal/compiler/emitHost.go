@@ -3,16 +3,16 @@ package compiler
 import (
 	"context"
 
-	"github.com/microsoft/typescript-go/internal/ast"
-	"github.com/microsoft/typescript-go/internal/core"
-	"github.com/microsoft/typescript-go/internal/module"
-	"github.com/microsoft/typescript-go/internal/outputpaths"
-	"github.com/microsoft/typescript-go/internal/packagejson"
-	"github.com/microsoft/typescript-go/internal/printer"
-	"github.com/microsoft/typescript-go/internal/symlinks"
-	"github.com/microsoft/typescript-go/internal/transformers/declarations"
-	"github.com/microsoft/typescript-go/internal/tsoptions"
-	"github.com/microsoft/typescript-go/internal/tspath"
+	"github.com/sngl-lang/typescript-go/internal/ast"
+	"github.com/sngl-lang/typescript-go/internal/core"
+	"github.com/sngl-lang/typescript-go/internal/module"
+	"github.com/sngl-lang/typescript-go/internal/outputpaths"
+	"github.com/sngl-lang/typescript-go/internal/packagejson"
+	"github.com/sngl-lang/typescript-go/internal/printer"
+	"github.com/sngl-lang/typescript-go/internal/symlinks"
+	"github.com/sngl-lang/typescript-go/internal/transformers/declarations"
+	"github.com/sngl-lang/typescript-go/internal/tsoptions"
+	"github.com/sngl-lang/typescript-go/internal/tspath"
 )
 
 // NOTE: EmitHost operations must be thread-safe

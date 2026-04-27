@@ -1,12 +1,12 @@
 package ls
 
 import (
-	"github.com/microsoft/typescript-go/internal/core"
-	"github.com/microsoft/typescript-go/internal/ls/lsconv"
-	"github.com/microsoft/typescript-go/internal/lsp/lsproto"
-	"github.com/microsoft/typescript-go/internal/outputpaths"
-	"github.com/microsoft/typescript-go/internal/sourcemap"
-	"github.com/microsoft/typescript-go/internal/tspath"
+	"github.com/sngl-lang/typescript-go/internal/core"
+	"github.com/sngl-lang/typescript-go/internal/ls/lsconv"
+	"github.com/sngl-lang/typescript-go/internal/lsp/lsproto"
+	"github.com/sngl-lang/typescript-go/internal/outputpaths"
+	"github.com/sngl-lang/typescript-go/internal/sourcemap"
+	"github.com/sngl-lang/typescript-go/internal/tspath"
 )
 
 func (l *LanguageService) getMappedLocation(fileName string, fileRange core.TextRange) lsproto.Location {

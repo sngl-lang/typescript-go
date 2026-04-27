@@ -5,7 +5,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/microsoft/typescript-go/internal/execute"
+	"github.com/sngl-lang/typescript-go/internal/execute"
 )
 
 // createTestWatcher sets up a minimal project with a tsconfig and

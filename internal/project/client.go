@@ -3,8 +3,8 @@ package project
 import (
 	"context"
 
-	"github.com/microsoft/typescript-go/internal/diagnostics"
-	"github.com/microsoft/typescript-go/internal/lsp/lsproto"
+	"github.com/sngl-lang/typescript-go/internal/diagnostics"
+	"github.com/sngl-lang/typescript-go/internal/lsp/lsproto"
 )
 
 type Client interface {

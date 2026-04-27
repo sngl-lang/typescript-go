@@ -5,9 +5,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/microsoft/typescript-go/internal/core"
-	"github.com/microsoft/typescript-go/internal/fourslash"
-	"github.com/microsoft/typescript-go/internal/testutil"
+	"github.com/sngl-lang/typescript-go/internal/core"
+	"github.com/sngl-lang/typescript-go/internal/fourslash"
+	"github.com/sngl-lang/typescript-go/internal/testutil"
 )
 
 func TestDeclarationMapsOpeningOriginalLocationProject(t *testing.T) {

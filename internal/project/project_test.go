@@ -5,12 +5,12 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/microsoft/typescript-go/internal/bundled"
-	"github.com/microsoft/typescript-go/internal/diagnostics"
-	"github.com/microsoft/typescript-go/internal/lsp/lsproto"
-	"github.com/microsoft/typescript-go/internal/project"
-	"github.com/microsoft/typescript-go/internal/testutil/projecttestutil"
-	"github.com/microsoft/typescript-go/internal/tspath"
+	"github.com/sngl-lang/typescript-go/internal/bundled"
+	"github.com/sngl-lang/typescript-go/internal/diagnostics"
+	"github.com/sngl-lang/typescript-go/internal/lsp/lsproto"
+	"github.com/sngl-lang/typescript-go/internal/project"
+	"github.com/sngl-lang/typescript-go/internal/testutil/projecttestutil"
+	"github.com/sngl-lang/typescript-go/internal/tspath"
 	"gotest.tools/v3/assert"
 )
 

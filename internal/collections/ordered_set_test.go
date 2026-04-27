@@ -4,7 +4,7 @@ import (
 	"slices"
 	"testing"
 
-	"github.com/microsoft/typescript-go/internal/collections"
+	"github.com/sngl-lang/typescript-go/internal/collections"
 	"gotest.tools/v3/assert"
 )
 

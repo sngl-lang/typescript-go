@@ -3,8 +3,8 @@ package format
 import (
 	"slices"
 
-	"github.com/microsoft/typescript-go/internal/ast"
-	"github.com/microsoft/typescript-go/internal/ls/lsutil"
+	"github.com/sngl-lang/typescript-go/internal/ast"
+	"github.com/sngl-lang/typescript-go/internal/ls/lsutil"
 )
 
 func getAllRules() []ruleSpec {

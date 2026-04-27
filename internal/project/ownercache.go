@@ -3,7 +3,7 @@ package project
 import (
 	"sync"
 
-	"github.com/microsoft/typescript-go/internal/collections"
+	"github.com/sngl-lang/typescript-go/internal/collections"
 )
 
 type ownerCacheEntry[V any] struct {

@@ -4,9 +4,9 @@ import (
 	"slices"
 	"testing"
 
-	"github.com/microsoft/typescript-go/internal/tsoptions"
-	"github.com/microsoft/typescript-go/internal/tsoptions/tsoptionstest"
-	"github.com/microsoft/typescript-go/internal/vfs/vfstest"
+	"github.com/sngl-lang/typescript-go/internal/tsoptions"
+	"github.com/sngl-lang/typescript-go/internal/tsoptions/tsoptionstest"
+	"github.com/sngl-lang/typescript-go/internal/vfs/vfstest"
 	"gotest.tools/v3/assert"
 )
 

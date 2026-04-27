@@ -10,11 +10,11 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/microsoft/typescript-go/internal/bundled"
-	"github.com/microsoft/typescript-go/internal/core"
-	"github.com/microsoft/typescript-go/internal/lsp"
-	"github.com/microsoft/typescript-go/internal/pprof"
-	"github.com/microsoft/typescript-go/internal/vfs/osvfs"
+	"github.com/sngl-lang/typescript-go/internal/bundled"
+	"github.com/sngl-lang/typescript-go/internal/core"
+	"github.com/sngl-lang/typescript-go/internal/lsp"
+	"github.com/sngl-lang/typescript-go/internal/pprof"
+	"github.com/sngl-lang/typescript-go/internal/vfs/osvfs"
 )
 
 func runLSP(args []string) int {

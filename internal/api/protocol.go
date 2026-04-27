@@ -1,7 +1,7 @@
 package api
 
 import (
-	"github.com/microsoft/typescript-go/internal/jsonrpc"
+	"github.com/sngl-lang/typescript-go/internal/jsonrpc"
 )
 
 // Message is an alias for jsonrpc.Message for convenience.

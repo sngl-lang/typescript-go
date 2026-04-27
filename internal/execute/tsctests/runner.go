@@ -7,11 +7,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/microsoft/typescript-go/internal/core"
-	"github.com/microsoft/typescript-go/internal/execute"
-	"github.com/microsoft/typescript-go/internal/execute/tsc"
-	"github.com/microsoft/typescript-go/internal/testutil/baseline"
-	"github.com/microsoft/typescript-go/internal/tspath"
+	"github.com/sngl-lang/typescript-go/internal/core"
+	"github.com/sngl-lang/typescript-go/internal/execute"
+	"github.com/sngl-lang/typescript-go/internal/execute/tsc"
+	"github.com/sngl-lang/typescript-go/internal/testutil/baseline"
+	"github.com/sngl-lang/typescript-go/internal/tspath"
 )
 
 type tscEdit struct {

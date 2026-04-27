@@ -4,8 +4,8 @@ import (
 	"slices"
 	"strconv"
 
-	"github.com/microsoft/typescript-go/internal/ast"
-	"github.com/microsoft/typescript-go/internal/core"
+	"github.com/sngl-lang/typescript-go/internal/ast"
+	"github.com/sngl-lang/typescript-go/internal/core"
 )
 
 // FlattenLevel controls how deeply binding/assignment patterns are decomposed.

@@ -9,9 +9,9 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/microsoft/typescript-go/internal/collections"
-	"github.com/microsoft/typescript-go/internal/repo"
-	"github.com/microsoft/typescript-go/internal/stringutil"
+	"github.com/sngl-lang/typescript-go/internal/collections"
+	"github.com/sngl-lang/typescript-go/internal/repo"
+	"github.com/sngl-lang/typescript-go/internal/stringutil"
 	"github.com/peter-evans/patience"
 )
 

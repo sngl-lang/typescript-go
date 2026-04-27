@@ -3,11 +3,11 @@ package fourslash_test
 import (
 	"testing"
 
-	"github.com/microsoft/typescript-go/internal/fourslash"
-	. "github.com/microsoft/typescript-go/internal/fourslash/tests/util"
-	"github.com/microsoft/typescript-go/internal/ls"
-	"github.com/microsoft/typescript-go/internal/lsp/lsproto"
-	"github.com/microsoft/typescript-go/internal/testutil"
+	"github.com/sngl-lang/typescript-go/internal/fourslash"
+	. "github.com/sngl-lang/typescript-go/internal/fourslash/tests/util"
+	"github.com/sngl-lang/typescript-go/internal/ls"
+	"github.com/sngl-lang/typescript-go/internal/lsp/lsproto"
+	"github.com/sngl-lang/typescript-go/internal/testutil"
 )
 
 func TestCompletionsSelfDeclaring1(t *testing.T) {

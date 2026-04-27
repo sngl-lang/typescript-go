@@ -8,8 +8,8 @@ import (
 	"runtime/debug"
 	"sync"
 
-	"github.com/microsoft/typescript-go/internal/json"
-	"github.com/microsoft/typescript-go/internal/jsonrpc"
+	"github.com/sngl-lang/typescript-go/internal/json"
+	"github.com/sngl-lang/typescript-go/internal/jsonrpc"
 )
 
 // SyncConn manages bidirectional communication with synchronous request handling.

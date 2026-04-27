@@ -6,8 +6,8 @@ package fourslash_test
 import (
 	"testing"
 
-	"github.com/microsoft/typescript-go/internal/fourslash"
-	"github.com/microsoft/typescript-go/internal/testutil"
+	"github.com/sngl-lang/typescript-go/internal/fourslash"
+	"github.com/sngl-lang/typescript-go/internal/testutil"
 )
 
 func TestJsDocIndentationPreservation3(t *testing.T) {

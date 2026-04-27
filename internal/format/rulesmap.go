@@ -4,8 +4,8 @@ import (
 	"slices"
 	"sync"
 
-	"github.com/microsoft/typescript-go/internal/ast"
-	"github.com/microsoft/typescript-go/internal/debug"
+	"github.com/sngl-lang/typescript-go/internal/ast"
+	"github.com/sngl-lang/typescript-go/internal/debug"
 )
 
 func getRules(context *FormattingContext, rules []*ruleImpl) []*ruleImpl {

@@ -3,7 +3,7 @@ package project
 import (
 	"context"
 
-	"github.com/microsoft/typescript-go/internal/collections"
+	"github.com/sngl-lang/typescript-go/internal/collections"
 )
 
 // APIOpenProject opens a project and returns a ref'd snapshot.

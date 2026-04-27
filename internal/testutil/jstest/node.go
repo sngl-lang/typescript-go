@@ -8,9 +8,9 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/microsoft/typescript-go/internal/json"
-	"github.com/microsoft/typescript-go/internal/repo"
-	"github.com/microsoft/typescript-go/internal/tspath"
+	"github.com/sngl-lang/typescript-go/internal/json"
+	"github.com/sngl-lang/typescript-go/internal/repo"
+	"github.com/sngl-lang/typescript-go/internal/tspath"
 )
 
 const loaderScript = `import script from "./script.mjs";

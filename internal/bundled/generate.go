@@ -14,7 +14,7 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/microsoft/typescript-go/internal/repo"
+	"github.com/sngl-lang/typescript-go/internal/repo"
 )
 
 var (

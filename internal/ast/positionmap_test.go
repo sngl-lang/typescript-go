@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/microsoft/typescript-go/internal/ast"
+	"github.com/sngl-lang/typescript-go/internal/ast"
 )
 
 func TestPositionMapASCII(t *testing.T) {

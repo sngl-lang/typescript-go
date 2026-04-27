@@ -3,7 +3,7 @@ package stringtestutil
 import (
 	"strings"
 
-	"github.com/microsoft/typescript-go/internal/stringutil"
+	"github.com/sngl-lang/typescript-go/internal/stringutil"
 )
 
 func Dedent(text string) string {

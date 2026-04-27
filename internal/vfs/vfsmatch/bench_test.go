@@ -3,9 +3,9 @@ package vfsmatch
 import (
 	"testing"
 
-	"github.com/microsoft/typescript-go/internal/vfs"
-	"github.com/microsoft/typescript-go/internal/vfs/cachedvfs"
-	"github.com/microsoft/typescript-go/internal/vfs/vfstest"
+	"github.com/sngl-lang/typescript-go/internal/vfs"
+	"github.com/sngl-lang/typescript-go/internal/vfs/cachedvfs"
+	"github.com/sngl-lang/typescript-go/internal/vfs/vfstest"
 )
 
 // Benchmark test cases using the same hosts as the unit tests

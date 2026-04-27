@@ -3,13 +3,13 @@ package fourslash_test
 import (
 	"testing"
 
-	"github.com/microsoft/typescript-go/internal/fourslash"
-	"github.com/microsoft/typescript-go/internal/testutil"
+	"github.com/sngl-lang/typescript-go/internal/fourslash"
+	"github.com/sngl-lang/typescript-go/internal/testutil"
 )
 
 // Regression test for crash when hovering with verbosity on a namespace
 // containing interfaces with generic heritage clauses.
-// See: https://github.com/microsoft/typescript-go/pull/3454#issuecomment-4285883568
+// See: https://github.com/sngl-lang/typescript-go/pull/3454#issuecomment-4285883568
 func TestQuickinfoVerbosityNamespaceInterfaceHeritageCrash(t *testing.T) {
 	t.Parallel()
 	defer testutil.RecoverAndFail(t, "Panic on fourslash test")

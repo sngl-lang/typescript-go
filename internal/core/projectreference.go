@@ -1,6 +1,6 @@
 package core
 
-import "github.com/microsoft/typescript-go/internal/tspath"
+import "github.com/sngl-lang/typescript-go/internal/tspath"
 
 type ProjectReference struct {
 	Path         string

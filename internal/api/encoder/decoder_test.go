@@ -5,11 +5,11 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/microsoft/typescript-go/internal/api/encoder"
-	"github.com/microsoft/typescript-go/internal/ast"
-	"github.com/microsoft/typescript-go/internal/core"
-	"github.com/microsoft/typescript-go/internal/parser"
-	"github.com/microsoft/typescript-go/internal/repo"
+	"github.com/sngl-lang/typescript-go/internal/api/encoder"
+	"github.com/sngl-lang/typescript-go/internal/ast"
+	"github.com/sngl-lang/typescript-go/internal/core"
+	"github.com/sngl-lang/typescript-go/internal/parser"
+	"github.com/sngl-lang/typescript-go/internal/repo"
 	"gotest.tools/v3/assert"
 )
 

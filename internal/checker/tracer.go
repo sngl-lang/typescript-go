@@ -1,8 +1,8 @@
 package checker
 
 import (
-	"github.com/microsoft/typescript-go/internal/ast"
-	"github.com/microsoft/typescript-go/internal/tracing"
+	"github.com/sngl-lang/typescript-go/internal/ast"
+	"github.com/sngl-lang/typescript-go/internal/tracing"
 )
 
 // Tracer records types and trace events during type checking. A nil *Tracer

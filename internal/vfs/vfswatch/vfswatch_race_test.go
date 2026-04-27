@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/microsoft/typescript-go/internal/vfs"
-	"github.com/microsoft/typescript-go/internal/vfs/vfstest"
-	"github.com/microsoft/typescript-go/internal/vfs/vfswatch"
+	"github.com/sngl-lang/typescript-go/internal/vfs"
+	"github.com/sngl-lang/typescript-go/internal/vfs/vfstest"
+	"github.com/sngl-lang/typescript-go/internal/vfs/vfswatch"
 )
 
 var defaultPaths = []string{

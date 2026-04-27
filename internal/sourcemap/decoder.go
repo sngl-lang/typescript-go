@@ -4,7 +4,7 @@ import (
 	"errors"
 	"iter"
 
-	"github.com/microsoft/typescript-go/internal/core"
+	"github.com/sngl-lang/typescript-go/internal/core"
 )
 
 type Mapping struct {

@@ -3,15 +3,15 @@ package fourslash_test
 import (
 	"testing"
 
-	"github.com/microsoft/typescript-go/internal/fourslash"
-	. "github.com/microsoft/typescript-go/internal/fourslash/tests/util"
-	"github.com/microsoft/typescript-go/internal/ls"
-	"github.com/microsoft/typescript-go/internal/lsp/lsproto"
-	"github.com/microsoft/typescript-go/internal/testutil"
+	"github.com/sngl-lang/typescript-go/internal/fourslash"
+	. "github.com/sngl-lang/typescript-go/internal/fourslash/tests/util"
+	"github.com/sngl-lang/typescript-go/internal/ls"
+	"github.com/sngl-lang/typescript-go/internal/lsp/lsproto"
+	"github.com/sngl-lang/typescript-go/internal/testutil"
 )
 
 // TestAutoImportNodeBuiltinNodenext is a regression test for
-// https://github.com/microsoft/typescript-go/issues/2555, where auto-imports
+// https://github.com/sngl-lang/typescript-go/issues/2555, where auto-imports
 // for Node.js built-in modules (e.g. "fs") were not appearing when using
 // module: nodenext and types: ["node"].
 func TestAutoImportNodeBuiltinNodenext(t *testing.T) {

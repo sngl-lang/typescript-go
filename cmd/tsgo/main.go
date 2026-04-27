@@ -3,7 +3,7 @@ package main
 import (
 	"os"
 
-	"github.com/microsoft/typescript-go/internal/execute"
+	"github.com/sngl-lang/typescript-go/internal/execute"
 )
 
 func main() {

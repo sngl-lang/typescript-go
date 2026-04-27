@@ -4,7 +4,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/microsoft/typescript-go/internal/core"
+	"github.com/sngl-lang/typescript-go/internal/core"
 )
 
 // VS Code's telemetry pipeline redacts any string matching

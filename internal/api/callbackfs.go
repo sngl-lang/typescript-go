@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/microsoft/typescript-go/internal/json"
-	"github.com/microsoft/typescript-go/internal/vfs"
+	"github.com/sngl-lang/typescript-go/internal/json"
+	"github.com/sngl-lang/typescript-go/internal/vfs"
 )
 
 // callbackFS wraps a base filesystem and delegates certain operations
