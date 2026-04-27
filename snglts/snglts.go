@@ -57,8 +57,9 @@ const (
 	KindTypeAliasDeclaration = ast.KindTypeAliasDeclaration
 	KindEnumDeclaration      = ast.KindEnumDeclaration
 	KindEnumMember           = ast.KindEnumMember
-	KindVariableStatement    = ast.KindVariableStatement
-	KindVariableDeclaration  = ast.KindVariableDeclaration
+	KindVariableStatement        = ast.KindVariableStatement
+	KindVariableDeclaration      = ast.KindVariableDeclaration
+	KindVariableDeclarationList  = ast.KindVariableDeclarationList
 	KindExportDeclaration    = ast.KindExportDeclaration
 	KindExportAssignment     = ast.KindExportAssignment
 	KindExportSpecifier      = ast.KindExportSpecifier
